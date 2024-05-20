@@ -1,5 +1,5 @@
 body{
-	background-color: #212922;
+	background-color: #DC965A;
 }
 h1{
 	font-size: 55px;
@@ -11,8 +11,8 @@ button{
 	width: 200px;
 }
 p{
-	text-decoration-color: #FFFF82;
-	color: #FFFF82;
+	text-decoration-color: #E4572E;
+	color: #E4572E;
 	font-family: system-ui;
 	font-size: 30px;
 }
