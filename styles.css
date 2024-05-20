@@ -1,16 +1,18 @@
 body{
-	background-color: #212992;
+	background-color: #212922;
 }
 h1{
 	font-size: 55px;
-	color: #3D5A6C;
+	color: #E4572E;
 }
 button{
 	background-color: #748E54;
 	color: #DC965A;
-	width: 150px;
+	width: 200px;
 }
 p{
-	text-decoration-style: #ffffff;
+	text-decoration-color: #FFFF82;
+	color: #FFFF82;
+	font-family: system-ui;
 	font-size: 30px;
 }
