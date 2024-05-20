@@ -8,11 +8,13 @@ h1{
 button{
 	background-color: #748E54;
 	color: #DC965A;
-	width: 200px;
+	width: 170px;
+	height: 100px;
+	margin-bottom: 20px;
 }
 p{
-	text-decoration-color: #E4572E;
-	color: #E4572E;
+	text-decoration-color: #000000;
+	color: #000000;
 	font-family: system-ui;
 	font-size: 30px;
 }
