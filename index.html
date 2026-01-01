@@ -1,81 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>hi</title>
- <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>HI</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h1 style="font-size: 55px; title="U R SUCKS">重修就好 !!</h1>
 
+<div class="container">
+    
+    <div class="left-sidebar">
+        <h1>重修就好 !!</h1>
 
-<a href="https://youtube.com/">
-  <button type="button"; title="R U sure?"; >
-    <p>YouTube</p>  
-  </button>
-</a>
+        <div class="dropdown-group">
+            <button style="margin-bottom: 0;">
+                Video <span class="arrow">▶</span>
+            </button>
+            
+            <div class="submenu">
+                <a href="https://youtube.com/" target="_blank">
+                    <button>YouTube</button>
+                </a>
+                <a href="https://www.bilibili.com/" target="_blank">
+                    <button>bilibili</button>
+                </a>
+            </div>
+        </div>
 
-<a href="https://www.bilibili.com/"; title="R U sure?";>
-  <button type="button">
-  
-    <p>bilibili</p> 
-  </button>
-</a>
+        <a href="https://www.facebook.com/" target="_blank"><button>Facebook</button></a>
 
-<a href="https://www.facebook.com/"; title="R U sure?";>
-  <button type="button">
-    <p>Facebook</p> 
-  </button>
-</a>
+        <div class="divider"></div>
 
+        <a href="https://portal.ccu.edu.tw/" target="_blank"><button>CCUSSO</button></a>
+        <a href="https://www.ccu.edu.tw/" target="_blank"><button>CCU</button></a>
+        <a href="https://www.gmail.com/" target="_blank"><button>Gmail</button></a>
 
-<br>
+        <div class="divider"></div>
 
-<a href="https://portal.ccu.edu.tw/"; title="U R good boi";>
-  <button type="button">
-    <p>CCUSSO</p> 
-  </button>
-</a>
+        <div class="dropdown-group">
+            <button style="margin-bottom: 0;">
+                AI Tools <span class="arrow">▶</span>
+            </button>
+            
+            <div class="submenu">
+                <a href="https://gemini.google.com/" target="_blank">
+                    <button>Gemini</button>
+                </a>
+                <a href="https://chat.openai.com/" target="_blank">
+                    <button>ChatGPT</button>
+                </a>
+            </div>
+        </div>
 
-<a href="https://www.ccu.edu.tw/">
-  <button type="button">
-    <p>CCU</p> 
-  </button>
-</a>
+        <a href="https://www.falstad.com/circuit/circuitjs.html" target="_blank">
+            <button onmouseover="changePage('https://www.falstad.com/circuit/circuitjs.html')">CircuitSim</button>
+        </a>
+        
+        <a href="https://uc6yl68t5j7.larksuite.com/drive/home/" target="_blank">
+            <button onmouseover="changePage('https://uc6yl68t5j7.larksuite.com/docx/YQgcdR7nSoM8BgxDH1puRbgispg')">Lark</button>
+        </a>
+    </div>
 
-<a href="https://www.gmail.com/">
+    <div class="right-content">
+        <iframe id="preview-frame" src="https://uc6yl68t5j7.larksuite.com/docx/YQgcdR7nSoM8BgxDH1puRbgispg"></iframe>
+    </div>
 
-<button type="button">
-    <p>Gmail</p> 
-  </button>
-</a>
+</div>
 
-
-<br>
-
-<a href="https://chat.openai.com/"; title="R U run out of idea?">
-  <button type="button">
-    <p>ChatGPT</p>
-  </button>
-</a>
-
-
-<a href="https://www.falstad.com/circuit/circuitjs.html"; title="U R good boi">
-  <button type="button">
-    <p>CircuitSim</p> 
-  </button>
-</a>
-
-
-
-<a href="https://uc6yl68t5j7.larksuite.com/drive/home/"; title="U R good boi">
-  <button type="button">
-    <p>Lark</p> 
-  </button>
-</a>
-<br>
-<iframe src="https://uc6yl68t5j7.larksuite.com/docx/YQgcdR7nSoM8BgxDH1puRbgispg" name="iframe_a" height="600px" width="80%"</iframe>
-
-
+<script>
+    function changePage(url) {
+        document.getElementById('preview-frame').src = url;
+    }
+</script>
 
 </body>
 </html>
